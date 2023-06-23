@@ -129,7 +129,7 @@ class Client:
 class EmailAlert:
     def __init__(self):
         self.login = "kletis0419@gmail.com"
-        self.password = "ywtlpsaouwyskiyy"
+        self.password = ""
         self.receiver = 'mcmillar@purdue.edu'
 
     def send_alert(self, msg):
