@@ -211,8 +211,6 @@ class Product(Process):
                     self._emailer.send_alert(tb)
                     self.init_websocket()
                 except Exception:
-                    tb = traceback.format_exc()
-                    self._emailer.send_alert(tb)
                     self.init_websocket()
                 else:
                     if "result" not in msg:
